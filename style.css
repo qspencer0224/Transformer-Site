@@ -1,0 +1,232 @@
+@keyframes jogging {
+    0%{
+        /* initial command */
+        /* margin-left:0%; */
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: ()
+    
+    }
+   
+   100%{
+        transform: translateX(110vw);
+    }
+}
+
+@keyframes going {
+    
+    0%{
+        /* initial command */
+        /* margin-left:0%; */
+        transform: translateX(0px);
+    }
+
+    25%{
+        transform:  translateY(50px);
+    
+    }
+
+    35%{
+        transform: translateX(100px);    
+    }
+
+    45%{
+    transform: translateY(150px);
+    }
+
+    55%{
+        transform: translateX(200vw);
+    }
+
+
+       70%{
+            transform: translateY(40vw);
+        }
+    
+
+   80%{
+        transform: translateX(70vw);
+    }
+}
+
+
+
+/* // _______________________________________ */
+
+.running{
+    /* border:solid blue; */
+    animation: jogging 10s ease-in-out infinite;
+}
+.sliding{
+    /* border:solid blue; */
+    animation: jogging 10s ease-in-out infinite;
+}
+
+
+.runner{
+  height:200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  
+    /* width:700px; */
+}
+.runnerBox{
+   height:200px;
+  background-color: #da6b2f;
+  
+}
+.bleek, .cats, .louis, .jerry, .whiplash{
+  height: 25vh;
+  margin: 5px;
+}
+
+
+.movement{
+    height:300px;
+}
+
+.rolling{
+    /* border:solid red; */
+    height:200px;
+    animation: jogging 5s ease-in-out infinite;
+
+}
+
+.go{
+    display:flex;
+    justify-content:left;
+}
+.go:hover{
+    background-color:green;
+    box-shadow: 4px 6px 10px black;
+}
+
+/* //__________________ */
+
+.box{
+    background-color: #4646dd;
+    height:75px;
+    width:75px;
+    border-radius: 25px;
+}
+
+.circle{
+    border:solid red;
+    border-radius:50%;
+    height:120px;
+    width:120px;
+}
+
+.bio{
+    background-color: #e5e557;
+    height:32vh;
+    width:100%;
+    padding:1em;
+    text-align:center;
+    color:  #d33c8c;
+}
+.jordan{
+    display:flex;
+  background-color: #d33c8c;
+  justify-content: space-around;
+  height: 65vh;
+}
+.j23{
+    border: solid purple;
+    height: 60vh;
+    margin-top: 90px;
+    margin-bottom:80px;
+}
+.disappear{
+    display:none
+}
+
+.toggleOne{
+    border:solid grey;
+    height:200px;
+    width:240px;
+}
+/* .togOne{
+
+} */
+
+.blued{
+    color:blue;
+}
+.miles{
+  
+  height: 55vh;
+  margin-top: 20px;
+  width: 80%;
+  margin: 10px;
+}
+.atcq{
+  
+  height: 55vh;
+  margin-top: 20px;
+  width: 80%;
+  margin: 10px;
+}
+.tnj{
+  
+  height: 55vh;
+  margin-top: 20px;
+  width: 80%;
+  margin: 10px;
+}
+.mobetta{
+  height: 55vh;
+  margin-top: 20px;
+  width: 80%;
+  margin: 10px;
+}
+.eddy{
+  
+  height: 55vh;
+  margin-top: 20px;
+  width: 80%;
+  margin: 10px;
+}
+.stax{
+  
+  height: 55vh;
+  margin-top: 20px;
+  width: 80%;
+  margin: 10px;
+}
+.milesPic{
+  width: 100%;
+  height: 100%;
+}
+.tnjPic{
+  width: 100%;
+  height: 100%;
+}
+.mobettaPic{
+  width: 100%;
+  height: 100%;
+}
+.eddyPic{
+  width: 100%;
+  height: 100%;
+}
+.staxPic{
+  width: 100%;
+  height: 100%;
+}
+.atcqPic{
+  width: 100%;
+  height: 100%;
+  
+}
+.boxPic{
+  width: 100%;
+  height: 100%;
+}
+.theatre{
+  border: solid black;
+}
